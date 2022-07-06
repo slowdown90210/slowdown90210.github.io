@@ -1,0 +1,93 @@
+body{
+
+    background-image: url('../img/index_background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+#header{
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+
+}
+
+.title{
+
+    color: #911251;
+    text-shadow:
+        0 0 7px #911251,
+        0 0 10px #911251,
+        0 0 21px #911251,
+        0 0 42px #911251,
+        0 0 82px #911251,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    font-size: 35px;
+    font-family: Consolas,monaco,monospace; 
+
+}
+
+#songs_display{
+
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white
+      
+
+}
+
+.song{
+
+    font-size: 25px;
+    font-family: Consolas,monaco,monospace; 
+
+}
+
+.link4songs{
+
+    text-decoration: none;
+    color: #911251;
+    text-shadow:
+        0 0 7px #911251,
+        0 0 10px #911251,
+        0 0 21px #911251,
+        0 0 42px #911251,
+        0 0 82px #911251,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+#footer{
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.text_main{
+
+    font-size: 20px;
+    font-family: Consolas,monaco,monospace; 
+    color: white;
+
+}
